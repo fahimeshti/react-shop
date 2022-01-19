@@ -1,0 +1,25 @@
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+}
+.filters h6 {
+    margin-right: 10px;
+}
+h1.filter-title {
+    margin: 15px;
+    text-transform: uppercase;
+}
+.formSelect {
+    margin-right: 10px;
+    outline: none;
+    box-shadow: none !important;
+}

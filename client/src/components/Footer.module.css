@@ -1,0 +1,60 @@
+h4 {
+    font-weight: bold;
+}
+.left {
+    padding: 25px;
+}
+.left p {
+    color: black;
+    font-size: 12px;
+}
+.social {
+    margin-top: 20px;
+}
+.social span {
+    width: 40px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 15px 18px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.center {
+    padding: 25px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.links ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.right {
+    padding: 25px;
+    margin: 0;
+}
+.right address {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+}
+.right address span {
+    margin-bottom: 5px;
+}
+.right address span svg {
+    margin-right: 5px;
+}

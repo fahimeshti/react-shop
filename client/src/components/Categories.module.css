@@ -1,0 +1,12 @@
+.shop-categories {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+@media screen and (max-width: 480px) {
+    .shop-categories {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,29 @@
+.cate-container {
+    margin: 3px;
+    height: 70vh;
+    position: relative;
+}
+.cate-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2 {
+    color: #fff;
+}
+@media screen and (max-width: 480px) {
+    .cate-container {
+        height: 20vh;
+        width: 100%;
+    }
+}

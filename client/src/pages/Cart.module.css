@@ -1,0 +1,161 @@
+
+.wrapper {
+    padding: 20px;
+    overflow-x: hidden;
+}
+.wrapper h1 {
+    text-align: center;
+}
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.top button {
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.top button:nth-child(1) {
+    border: 2px solid #000;
+}
+.product-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* background-color: black; */
+}
+.top button:last-child {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.top-center {
+    text-decoration: underline;
+}
+.top-center span {
+    margin-left: 12px;
+}
+
+.info {
+    padding: 20px;
+}
+.info img {
+    width: 200px;
+}
+.infoLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.product-img img {
+    width: 100%;
+    max-height: 160px;
+}
+.prodInfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+}
+.left b {
+    margin-right: 4px;
+}
+.left span {
+    margin-bottom: 10px;
+}
+.amountContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.amountContainer span {
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+.amountContainer span.input {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    margin: 0px 5px;
+    text-align: center;
+    cursor: auto;
+}
+.dollar {
+    font-size: 28px;
+}
+.prodInfo .right {
+    text-align: center;
+}
+.summery {
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+}
+.summeryItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.summery button {
+    width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin-top: 20px;
+}
+@media screen and (max-width: 480px) {
+    .top-center {
+        display: none;
+    }
+    .top button {
+        padding: 7px;
+        font-size: 14px;
+    }
+    .info img {
+        width: 100%;
+    }
+    .left {
+        font-size: 14px;
+    }
+    .amountContainer span {
+        font-size: 18px;
+    }
+    .amountContainer span.input {
+        width: 18px;
+        height: 18px;
+        border-radius: 5px;
+    }
+    .prodInfo {
+        padding: 8px;
+    }
+    .dollar {
+        font-size: 16px;
+    }
+    .summery {
+        border-radius: 10px;
+        padding: 20px;
+        height: auto;
+    }
+}

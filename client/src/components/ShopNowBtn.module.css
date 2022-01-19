@@ -1,0 +1,39 @@
+.button {
+    position: relative;
+    background-color: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 10px 20px;
+    color: white;
+    transition-duration: 0.3s;
+    overflow: hidden;
+}
+.button::before {
+    content: 'ᐅ';
+    position: absolute;
+    right: -15px;
+    top: 26%;
+    color: #000;
+    transition-duration: 0.3s;
+}
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.button span {
+    display: inline-block;
+    transform: translateX(0);
+    transition: transform 0.3s;
+}
+.button:hover span {
+    transform: translateX(-5px);
+}
+.button:hover::before {
+    right: 5px;
+}
+@media screen and (max-width: 480px) {
+    .button {
+        padding: 8px 15px;
+        font-size: 12px;
+    }
+}

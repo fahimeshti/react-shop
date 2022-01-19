@@ -1,0 +1,92 @@
+
+.my_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 15px;
+}
+.my_container img {
+    width: 100%;
+    max-height: 350px;
+}
+.right {
+    align-self: flex-start;
+    margin-left: 50px;
+}
+.description {
+    font-size: 14px;
+}
+.right span {
+    font-size: 32px;
+    font-weight: 300;
+}
+.filterMainCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.filterContainer {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: flex-start;
+    min-width: 50%;
+}
+.filterContainer .filterTitle {
+    font-size: 20px;
+    font-weight: 200;
+}
+.filterContainer span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: teal;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.filterSize {
+    min-width: 20%;
+    margin-right: 10px;
+}
+.addContainer {
+    display: flex;
+    flex-direction: row;
+}
+.amountContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.amountContainer span {
+    font-size: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+.amountContainer span.input {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 1px !important;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    margin: 0px 5px;
+}
+.addContainer button {
+    padding: 8px 15px;
+    border: 2px solid teal;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 15px;
+    transition-duration: 0.3s;
+}
+.addContainer button:hover {
+    background-color: #f8f4f4;
+}
+.addContainer button:focus {
+    background-color: teal;
+    color: white;
+}

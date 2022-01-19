@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fcf5f5;
+    padding: 50px;
+    text-align: center;
+}
+.container h2 {
+    font-size: 48px;
+    font-weight: 900;
+}
+.description p {
+    color: #000;
+}

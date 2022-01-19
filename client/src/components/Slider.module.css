@@ -1,0 +1,39 @@
+
+.carouseel {
+    position: relative;
+}
+.carouseel h2 {
+    font-size: 48px;
+}
+.carouseel h2, p {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+.carousel_caption {
+    position: absolute;
+    top: 44%;
+    right: 120px;
+    max-width: 400px;
+}
+.caption p {
+    text-align: center;
+    margin: 2px solid red;
+}
+
+@media screen and (max-width: 480px) {
+.carouseel h2 {
+    font-size: 28px;
+}
+.carousel_caption {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: 50px;
+    max-width: 400px;
+}
+.carousel_caption p {
+    font-size: 12px !important;
+}
+
+}
