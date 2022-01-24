@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import classes from './Product.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus, faSearch, faHeart } from '@fortawesome/free-solid-svg-icons';

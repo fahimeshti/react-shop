@@ -3,6 +3,7 @@ import "./DashBoard.css";
 import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 import Widgetsm from "../../components/widgetSm/WidgetSm";
 import WidgetLg from "../../components/widgetLg/WidgetLg";
+import { Link } from "react-router-dom";
 export default function DashBoard() {
     
   const userData = [
@@ -66,6 +67,9 @@ export default function DashBoard() {
       />
       <Widgetsm />
       <WidgetLg />
+      <Link to="/dashboard/products/">
+      <button className="buttonLg">All Products</button>
+      </Link>
       </div>
     );
   }

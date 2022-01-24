@@ -4,7 +4,6 @@ import Navbar from '../components/Navbar';
 import NewsLetter from '../components/NewsLetter';
 import Footer from '../components/Footer';
 import classes from './Product.module.css';
-import FilterBySize from '../components/FilterBySize';
 import { publicRequest } from "../requestMethods";
 import { useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';

@@ -8,8 +8,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const quantity = useSelector(state => state.cart.quantity)
     const userLoggedIn = useSelector((state) => state.user.currentUser);
-    const admin = userLoggedIn.isAdmin
-    const adminUser = userLoggedIn.username
+    const admin = userLoggedIn?.isAdmin
+    const adminUser = userLoggedIn?.username
 
 return (
         <div className={classes.container}>

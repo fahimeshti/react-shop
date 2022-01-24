@@ -33,7 +33,7 @@ const Cart = () => {
           } catch {}
         };
         stripeToken && makeRequest();
-      }, [stripeToken, cart.total, history]);
+      }, [stripeToken, cart, cart.total, history]);
 
 
 return (
@@ -113,7 +113,7 @@ return (
                     </div>
                     <StripeCheckout
                         name="Kroy Shop"
-                        image="https://avatars.githubusercontent.com/u/1486366?v=4"
+                        image="https://firebasestorage.googleapis.com/v0/b/shop-24c11.appspot.com/o/android-chrome-512x512.png?alt=media&token=da5f9b67-d6a4-4165-8586-f439a2448172"
                         billingAddress
                         shippingAddress
                         description={`Your total is $${cart.total}`}
